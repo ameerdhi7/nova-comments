@@ -2,6 +2,7 @@
 
 namespace KirschbaumDevelopment\NovaComments\Nova;
 
+use Laravel\Nova\Fields\File;
 use Laravel\Nova\Resource;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
@@ -61,6 +62,8 @@ class Comment extends Resource
 
             BelongsTo::make('Commenter', 'commenter', config('nova-comments.commenter.nova-resource'))
                 ->exceptOnForms(),
+
+            File::make('File', 'file')->nullable(),
 
             DateTime::make('Created', 'created_at')
                 ->format(config('nova-comments.date-format'))
