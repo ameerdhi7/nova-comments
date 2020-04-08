@@ -142,6 +142,16 @@ class Commenter extends NovaCommenter
 
 Then use this class instead of the default `Commenter` class within your resources.
 
+# Attching file
+
+this package assume you have installed Advanced Nova Media Library field
+
+ reference and guid to install here [Advanced Nova Media Library field](https://novapackages.com/packages/ebess/advanced-nova-media-library)
+
+
+
+
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
