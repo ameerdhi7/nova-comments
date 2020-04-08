@@ -142,7 +142,7 @@ class Commenter extends NovaCommenter
 
 Then use this class instead of the default `Commenter` class within your resources.
 
-# Attching file
+# Attaching file
 
 this package assume you have installed Advanced Nova Media Library field
 
